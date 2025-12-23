@@ -1,0 +1,27 @@
+# Creating an advanced calculator
+num1 = float(input("Enter first number: "))
+op = input("Enter operator: ")
+num2 = float(input("Enter second number: "))
+
+if op == "+":
+    print(num1 + num2) # Addition
+elif op == "-":
+    print(num1 - num2) # Subtraction
+elif op == "*":
+    print(num1 * num2) # Multiplication
+elif op == "/":
+    print(num1 / num2) # Division
+elif op == "//":
+    print(num1 // num2) # Floor Division
+elif op == "%":
+    print(num1 % num2) # Modulus
+elif op == "**":
+    print(num1 ** num2) # Exponentiation
+elif op == ">":
+    print(f"{num1} is greater than {num2}" if num1 > num2 else f"{num1} is NOT greater than {num2}") # Test greater than
+elif op == "<":
+    print(f"{num1} is less than {num2}" if num1 < num2 else f"{num1} is NOT less than {num2}") # Test less than
+elif op == "=":
+    print(f"{num1} is equal to {num2}" if num1 == num2 else f"{num1} is NOT equal to {num2}") # Test equality
+else:
+    print("Invalid operator")
