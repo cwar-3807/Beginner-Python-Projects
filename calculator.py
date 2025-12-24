@@ -23,5 +23,11 @@ elif op == "<":
     print(f"{num1} is less than {num2}" if num1 < num2 else f"{num1} is NOT less than {num2}") # Test less than
 elif op == "=":
     print(f"{num1} is equal to {num2}" if num1 == num2 else f"{num1} is NOT equal to {num2}") # Test equality
+elif op == "sin" and num1 < num2:
+    print(sin(num1 / num2)) # sine operator
+elif op == "cos" and num1 < num2:
+    print(cos(num1 / num2)) # cosine opeartor
+elif op == "tan":
+    print(tan(num1 / num2)) # tangent operator
 else:
     print("Invalid operator")
