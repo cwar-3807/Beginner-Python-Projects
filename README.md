@@ -1,2 +1,2 @@
-# Beginner-Python-Projects
-A repository to place new Python Projects based on calculations. This calculator is an edit from one in the freecodecamp tutorials and has added functionalities, such as addition, subtraction, multiplication, division, floor division, modulus and the ability to test whether a number is greater than, less than or equal to another one.
+# Calculator
+A repository to place new Python Projects based on calculations. This calculator is an edit from one in the freecodecamp tutorials and has added functionalities, such as addition, subtraction, multiplication, division, floor division, modulus, the ability to test whether a number is greater than, less than or equal to another one and trigonometric functions.
